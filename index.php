@@ -18,6 +18,7 @@ class Lingkaran {
     }
 }
 
+echo "<h1>Calculator lingkaran dan bola</h1>";
 echo "Masukkan Jari-jari Lingkaran : ";
 $input = trim(fgets(STDIN));
 $lingkaran = new Lingkaran($input);
