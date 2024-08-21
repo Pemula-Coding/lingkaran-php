@@ -3,18 +3,18 @@
 <?php 
 class Lingkaran {
     public $jarijari;
-    public $phi = 3.14;
+    public $pi = 3.14;
     public function __construct($jarijari)
     {
         $this->jarijari = $jarijari;
     }
     public function luas()
     {
-        return $this->phi * $this->jarijari * $this->jarijari;
+        return $this->pi * $this->jarijari * $this->jarijari;
     }
     public function keliling()
     {
-        return 2 * $this->phi * $this->jarijari;
+        return 2 * $this->pi * $this->jarijari;
     }
 }
 
